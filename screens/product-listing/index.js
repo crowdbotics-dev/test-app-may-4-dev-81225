@@ -92,7 +92,8 @@ const styles = StyleSheet.create({
   productContainer: {
     paddingHorizontal: 20,
     width: "100%",
-    marginVertical: 10
+    marginVertical: 10,
+    borderColor: "#ea0808"
   },
   imageContainer: {
     width: 350,

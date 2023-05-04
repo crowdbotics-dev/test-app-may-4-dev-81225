@@ -1,4 +1,4 @@
-import React from "react";
+import { ImageBackground } from "react-native";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled1 = () => {
@@ -8,13 +8,20 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}></ScrollView>
+    }}><ImageBackground style={styles.EDZGawzY} source={require("./Screenshot 2023-04-25 at 10.10.15 AM.png")} resizeMode="cover"></ImageBackground></ScrollView>
     </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
+  },
+  EDZGawzY: {
+    width: 242,
+    height: 143,
+    position: "absolute",
+    left: 57,
+    top: 214.5
   }
 });
 export default Untitled1;
